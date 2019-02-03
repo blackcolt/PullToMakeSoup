@@ -264,7 +264,7 @@ class SoupAnimator: NSObject, RefreshViewAnimator {
         refreshView.water.clipsToBounds = true
     
         
-        UIView.animate(withDuration: 1, delay: 0, options: UIViewAnimationOptions(), animations: {
+        UIView.animate(withDuration: 1, delay: 0, options: UIView.AnimationOptions(), animations: {
             self.refreshView.shadow.alpha = 1
             self.refreshView.water.transform = CGAffineTransform(scaleX: 1, y: 1)
             }, completion: { completed in
