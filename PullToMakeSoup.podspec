@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.frameworks   = 'CoreGraphics', 'QuartzCore'
 
-  s.dependency 'PullToRefresher', '~> 2.0'
+  s.dependency 'PullToRefresher', '~> 3.1'
 
 end
